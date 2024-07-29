@@ -17,12 +17,16 @@ Move robot_1/2 , check_Inventory, Assembling, Painting, Packaging, Shipping and 
 
 <h3>Problems</h3>
 We have design 5 problem instances , starting from very simple to more complex problem by imposing different constraints and objects.
-Problem 1: Order 1 products
-Problem 2: Order 15 products
-Problem 3: Order of products with inventory (some products already manufactured in the inventory)
-Problem 4: Restocking - order o product with instruction to maintain inventory for the future orders 
-Problem 5: Using two robotics manipulators/crane/lifter to transfer products within production stages
-You can observe the domain of problem five from below animated picture;
+
+Problem 1: Order 1 products.
+
+Problem 2: Order 15 products.
+
+Problem 3: Order of products with inventory (some products already manufactured in the inventory).
+
+Problem 4: Restocking - order o product with instruction to maintain inventory for the future orders.
+
+Problem 5: Using two robotics manipulators/crane/lifter to transfer products within production stages. You can observe the domain of problem five from below animated picture;
 <img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/problem%205%20visulinzing.png" width="500" alt="Dataset"/>
 
 <h3>Planner</h3>
