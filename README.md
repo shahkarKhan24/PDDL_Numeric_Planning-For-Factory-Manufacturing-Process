@@ -22,6 +22,9 @@ Problem 2: Order 15 products
 Problem 3: Order of products with inventory (some products already manufactured in the inventory)
 Problem 4: Restocking - order o product with instruction to maintain inventory for the future orders 
 Problem 5: Using two robotics manipulators/crane/lifter to transfer products within production stages
+You can observe the domain of problem five from below animated picture;
+<img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/problem%205%20visulinzing.png" width="500" alt="Dataset"/>
+
 <h3>Planner</h3>
 To solve the numerical planning problem we have decided ENHSP, Expressive Numeric Heuristic Search Planner, is a PDDL automated planning system that supports classical and Numeric Planning (PDDL2.1).
 ENHSP transforms the PDDL descriptions into a graph-search problem where nodes represent states visited by the planner. The planner builds this graph in an incremental-forward fashion, and is guided by a heuristic function to explore only those nodes whose associated state is reachable from the init and get the planner closer to the goals.
@@ -35,4 +38,12 @@ opt-hmax.
 1. MRP Heuristic (h_mrp): mrp heuristics is a rule base heuristics.It starts with a GBFS and then uses the MRP heuristic to improve the solution..
 2.  Numeric h_add (hadd) Heuristic : The h_add heuristic is an additive heuristic often used in automated planning. It is a relaxed heuristic, meaning it simplifies the problem to provide an estimate of the cost to reach the goal.
 3. Numeric h_max (hmax) Heuristic: The h_max heuristic is another relaxed heuristic used in automated planning. It provides an estimate of the cost to reach the goal by considering the maximum cost of achieving any single subgoal.
+<div>
+<img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/Heuristic%20Data.png" width="500" alt="Dataset"/>
+</div>
+<h3>Visualizing</h3>
+<div>
+<img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/expanded%20nodes.png" width="400" alt="Dataset"/>
+<img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/planning%20time.png" width="400" alt="Dataset"/>
+</div>
 
