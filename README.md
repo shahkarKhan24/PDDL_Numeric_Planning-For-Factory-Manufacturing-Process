@@ -1,5 +1,5 @@
 # PDDL_Numeric_Planning-For-Factory-Manufacturing-Process
-The idea of this project is to optimize production schedules to minimize costs and maximize efficiency, ensuring timely delivery of products while maintaining inventory and coordinating with robotic machines.This project aims to create an efficient production plan for a factory that manufactures a single type of product. 
+The idea of this project is to optimize production schedules to minimize costs and maximize efficiency, ensuring timely delivery of products while maintaining inventory and coordinating with robotic machines.This project aims to create an efficient production plan for a factory that manufactures a single type of product. all the problem and domain files can be found in the zip folder in this repository.
 <div>
 <img src="https://github.com/shahkarKhan24/PDDL_Numeric_Planning-For-Factory-Manufacturing-Process/blob/main/Images/Fac%20prod.jpeg" width="600" alt="Dataset"/>
 </div>
